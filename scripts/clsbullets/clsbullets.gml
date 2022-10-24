@@ -24,6 +24,11 @@ function Bullet() constructor
 		time_source_start(destroyTimer);		
 	}
 	
+	HelloGM = function()
+	{
+		log("hello");
+	}
+	
 	Step = function()
 	{
 		spd += spdIncrease;

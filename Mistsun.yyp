@@ -109,6 +109,7 @@
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
