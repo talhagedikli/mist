@@ -20,7 +20,9 @@ part_type_life(ptAttack, 10, 50);
 part_type_size(ptAttack, 3, 5, -0.1, 0);
 part_type_color2(ptAttack, c_gray, c_dkgray);
 part_type_alpha3(ptAttack, 0.7, 0.9, 0.2);
-	
+
+
+
 // Methods
 shoot = function()
 {

@@ -23,8 +23,13 @@ if (_inst != noone)
 	_inst.knockbackDir		= image_angle;
 	_inst.knockbackPower	= knockbackPower;
 	_inst.knocbackTime		= knocbackTime;
-	_inst.stateChange(EnemyStates.knockback);
+	if (_inst.state != EnemyStates.dead)
+	{
+		_inst.stateChange(EnemyStates.knockback);
+	}
+	_inst.hp -= self.damage;
 	createDestroyEffect(x, y, irandom_range(6, 12));
+	
 	instance_destroy();
 }
 image_xscale = max(1, spd/sprite_width);

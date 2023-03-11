@@ -1,7 +1,7 @@
 #region INIT
 owner			= noone;
-bbox_width		= sprite_get_bbox_left(sprite_index) - sprite_get_bbox_right(sprite_index);
-bbox_height 	= sprite_get_bbox_bottom(sprite_index) - sprite_get_bbox_top(sprite_index);
+bboxWidth		= sprite_get_bbox_left(sprite_index) - sprite_get_bbox_right(sprite_index);
+bboxHeight 	= sprite_get_bbox_bottom(sprite_index) - sprite_get_bbox_top(sprite_index);
 
 state			= 0;
 facing			= 1;

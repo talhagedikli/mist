@@ -5,7 +5,7 @@
 function Bullet() constructor
 {
 	#region INITIALIZE
-	instance_index = instanceof(self);
+	instance_index	= instanceof(self);
 	spd				= undefined;
 	spdMax			= undefined;
 	spdIncrease		= undefined;

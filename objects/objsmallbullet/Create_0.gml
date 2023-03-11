@@ -13,4 +13,5 @@ knockbackSettings = {
 	"angle" : 0
 }
 #endregion
-	
+
+damage = 1;

@@ -4,6 +4,10 @@ if (state == EnemyStates.idle)
 	var _xv = lengthdir_x(spd, image_angle);
 	var _yv = lengthdir_y(spd, image_angle);
 	checkCollisions(objSolidParent, _xv, _yv);
+	if (hp <= 0)
+	{
+		state = EnemyStates.dead;
+	}
 }
 else if (state == EnemyStates.knockback)
 {
@@ -29,3 +33,13 @@ else if (state == EnemyStates.knockback)
 		}
 	}
 }
+else if (state == EnemyStates.dead)
+{
+	image_alpha -= 0.1;
+	if (image_alpha <= 0)
+	{
+		instance_destroy()
+	}	
+}
+
+

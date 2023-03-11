@@ -10,7 +10,6 @@ recoilPower		= 5;
 attackSound			= sndPistolShot;
 soundFX.shootSound		= sndPistolShot;
 
-
 var _f = function() {};
 heatTime		= 15;
 heatTimer = time_source_create(time_source_game, heatTime, time_source_units_frames, _f);

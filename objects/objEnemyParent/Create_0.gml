@@ -4,7 +4,8 @@ event_inherited();
 enum EnemyStates
 {
 	idle,
-	knockback
+	knockback,
+	dead
 }
 
 state = EnemyStates.idle;

@@ -10,7 +10,7 @@ if (instance_number(self.object_index) > 1)
 
 
 cm			= instance_create_layer(x, y, layer, objCameraBasic);
-lc			= instance_create_layer(x, y, layer, objLightController);
+// lc			= instance_create_layer(x, y, layer, objLightController);
 sl			= instance_create_layer(x, y, layer, objSaveManager);
 pt			= instance_create_layer(x, y, layer, objParticleManager);
 

@@ -13,7 +13,7 @@ knockback		= {
 
 spd = 0;
 
-
+hp = 20;
 
 
 

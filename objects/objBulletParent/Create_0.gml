@@ -48,4 +48,6 @@ createDestroyEffect = function(_x, _y, _num)
 	part_particles_create(global.PSEffects, _x, _y, particles.destroy, _num);
 }
 
+
+damage = 1;
 #endregion

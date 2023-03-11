@@ -4,13 +4,13 @@ event_inherited();
 // Variables
 sprite_index = sprShotgun;
 
-numofBullets = 3;
-bulletSpread = 7;
+numofBullets = 6;
+bulletSpread = 15;
 
-recoilPower = 7;
+recoilPower = 25;
 
-attackSound = sndPistolShot;
-soundFX.shootSound = sndPistolShot;
+attackSound = sndShotgunShot;
+soundFX.shootSound = sndShotgunShot;
 
 heatTime = 45;
 var _f = function() {};
