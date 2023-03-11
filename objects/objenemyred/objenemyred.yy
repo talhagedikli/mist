@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprEnemy",
-    "path": "sprites/sprEnemy/sprEnemy.yy",
+    "name": "sprZombi",
+    "path": "sprites/sprZombi/sprZombi.yy",
   },
   "spriteMaskId": null,
   "visible": true,

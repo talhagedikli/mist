@@ -47,3 +47,5 @@ function GameRestart()
 	log("-----------------------------------", "Game Restarted");
 	game_restart();
 }
+
+window_set_fullscreen(true);

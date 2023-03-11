@@ -29,7 +29,7 @@ shoot = function()
 	{
 		var _x			= x + lengthdir_x(sprite_width, image_angle);
 		var _y			= y + lengthdir_y(sprite_width, image_angle);
-		var _b			= instance_create_layer(_x, _y, "Bullets", objSmallBullet);
+		var _b			= instance_create_layer(_x, _y, "Bullets", objShotgunBullet);
 		_b.image_angle	= random_range(image_angle-bulletSpread, image_angle+bulletSpread);
 		_b.direction	= _b.image_angle;
 	}
